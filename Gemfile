@@ -8,5 +8,5 @@ gem "rdoc", "~> 6.3"
 gem "rubocop", "~> 1.12"
 unless RUBY_PLATFORM == 'java'
   gem 'brotli', '>= 0.5'
-  gem 'zstd-ruby', '~> 1.5'
+  gem 'zstd-ruby', '~> 2.0'
 end
